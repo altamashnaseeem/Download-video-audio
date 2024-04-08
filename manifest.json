@@ -1,0 +1,21 @@
+{
+    "name":"Download youtube video & audio",
+    "version":"0.0.1",
+    "description":"this is an extension which download the youtube video or audio on your system",
+    "manifest_version":3,
+    "icons":{
+      "16": "16.png",
+      "48": "48.png",
+      "128": "128.png"
+    },
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": {
+          
+          "16": "16.png",
+      "48": "48.png",
+      "128": "128.png"
+        }
+    },
+    "permissions": ["activeTab"]
+}

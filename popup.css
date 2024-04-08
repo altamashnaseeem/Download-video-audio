@@ -1,0 +1,42 @@
+body{
+    width: 200px; /* Set the desired width */
+    text-align: center;
+    background-color:rgb(26, 26, 26);
+}
+
+#downloadAudio{
+    background-color: rgb(204, 204, 204);
+    margin-top: 2rem;
+    margin-bottom: 20px;
+    color:rgb(50, 50, 50);
+    font-size: 1rem; /* Increase font size */
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color 0.3s ease;
+    
+}
+#downloadAudio:hover{
+    opacity: 0.7;
+}
+#downloadVideo{
+    background-color: rgb(204, 204, 204);
+    margin-bottom: 20px;
+    color: rgb(50, 50, 50);
+    font-size: 1rem; /* Increase font size */
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color 0.3s ease;
+}
+#downloadVideo:hover {
+    /* New button color on hover */
+    opacity: 0.6;
+}
+
+#downloadStatus{
+    font-size: medium;
+    font-weight: 600;
+    color:rgb(204, 204, 204) ;
+    font-family:sans-serif;
+}
